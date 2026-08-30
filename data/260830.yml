@@ -1,0 +1,60 @@
+about:
+  description: A terminal workspace with batteries included
+  license: MIT
+  homepage: https://zellij.dev
+  head: e839bff
+  archived: false
+  latestVersion: v0.45.1
+  collectedAt: 2026-08-30T05:40:19Z
+timeline:
+  created: 2020-09-01
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-28
+popularity:
+  star: 35181
+  watcher: 112
+  fork: 1412
+  release: 71
+  contributor: 213
+  pullRequest: 593
+  issue: 2862
+language:
+  Rust: 11850663
+  JavaScript: 240211
+  CSS: 6943
+  Shell: 4634
+  HTML: 1782
+totalLine: 12104233
+recent:
+  last30d:
+    since: 2026-07-31
+    release: 2
+    mergedPR: 32
+    openPR: 36
+    closedIssue: 15
+    openIssue: 37
+    commit: 45
+  last90d:
+    since: 2026-06-01
+    release: 2
+    mergedPR: 68
+    openPR: 95
+    closedIssue: 34
+    openIssue: 104
+    commit: 86
+  last180d:
+    since: 2026-03-03
+    release: 6
+    mergedPR: 153
+    openPR: 179
+    closedIssue: 90
+    openIssue: 251
+    commit: 200
+  last360d:
+    since: 2025-09-04
+    release: 6
+    mergedPR: 240
+    openPR: 225
+    closedIssue: 136
+    openIssue: 395
+    commit: 288
