@@ -5,19 +5,19 @@ about:
   head: af38660
   archived: false
   latestVersion: "v0.45.1"
-  collectedAt: 2026-09-07T04:44:58Z
+  collectedAt: 2026-09-07T19:42:35Z
 timeline:
   created: 2020-09-01
   lastCommit: 2026-08-31
   lastRelease: 2026-08-28
 popularity:
-  star: 35302
+  star: 35311
   watcher: 116
-  fork: 1430
+  fork: 1433
   release: 71
   contributor: 213
-  pullRequest: 2145
-  issue: 2881
+  pullRequest: 2146
+  issue: 2883
 language:
   Rust: 11850663
   JavaScript: 240211
@@ -30,60 +30,60 @@ recent:
     since: 2026-08-08
     release: 2
     mergedPR: 26
-    openPR: 34
+    openPR: 35
     closedIssue: 15
-    openIssue: 46
+    openIssue: 48
     commit: 32
   last60d:
     since: 2026-07-09
     release: 2
     mergedPR: 48
-    openPR: 62
+    openPR: 63
     closedIssue: 22
-    openIssue: 84
+    openIssue: 86
     commit: 63
   last90d:
     since: 2026-06-09
     release: 2
     mergedPR: 68
-    openPR: 93
+    openPR: 94
     closedIssue: 33
-    openIssue: 117
+    openIssue: 119
     commit: 85
   last180d:
     since: 2026-03-11
     release: 6
     mergedPR: 136
-    openPR: 176
+    openPR: 177
     closedIssue: 87
-    openIssue: 257
+    openIssue: 259
     commit: 163
   last360d:
     since: 2025-09-12
     release: 6
     mergedPR: 240
-    openPR: 229
+    openPR: 230
     closedIssue: 132
-    openIssue: 410
+    openIssue: 412
     commit: 289
   last720d:
     since: 2024-09-17
     release: 14
     mergedPR: 409
-    openPR: 283
+    openPR: 284
     closedIssue: 242
-    openIssue: 722
+    openIssue: 724
     commit: 597
 total:
   release: 71
   mergedPR: 1544
-  openPR: 345
+  openPR: 346
   closedIssue: 1326
-  openIssue: 1555
+  openIssue: 1557
   commit: 3356
 ---
 path: /home/runner/.x-repo/github.com/zellij-org/zellij
-collectedAt: 2026-09-07T04:45:22Z
+collectedAt: 2026-09-07T19:42:57Z
 loc:
   Rust:
     code: 295090
@@ -312,7 +312,7 @@ checks:
       - 'Warn: 0 commits out of 26 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:45:23+00:00
+  collectedAt: 2026-09-07T19:42:58+00:00
   platform:
     darwin/arm64:
       name:  zellij-aarch64-apple-darwin.tar.gz
