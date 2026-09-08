@@ -5,13 +5,13 @@ about:
   head: af38660
   archived: false
   latestVersion: "v0.45.1"
-  collectedAt: 2026-09-08T01:59:55Z
+  collectedAt: 2026-09-08T04:47:28Z
 timeline:
   created: 2020-09-01
   lastCommit: 2026-08-31
   lastRelease: 2026-08-28
 popularity:
-  star: 35311
+  star: 35314
   watcher: 116
   fork: 1434
   release: 71
@@ -83,7 +83,7 @@ total:
   commit: 3356
 ---
 path: /home/runner/.x-repo/github.com/zellij-org/zellij
-collectedAt: 2026-09-08T02:00:16Z
+collectedAt: 2026-09-08T04:47:57Z
 loc:
   Rust:
     code: 295090
