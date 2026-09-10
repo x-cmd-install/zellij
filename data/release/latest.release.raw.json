@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 15390807,
       "digest": "sha256:c029ba4fe1927b79ad9f0cdd59155c4dff80777863c85857d4d09b88b56f9891",
-      "download_count": 1921,
+      "download_count": 1931,
       "created_at": "2026-08-28T09:04:56Z",
       "updated_at": "2026-08-28T09:04:58Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-apple-darwin.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 17986395,
       "digest": "sha256:05f0802afadd53f8db9514e7cae53c9ae8432fed1b35b8294aa816ee3044a16b",
-      "download_count": 4785,
+      "download_count": 4835,
       "created_at": "2026-08-28T09:04:49Z",
       "updated_at": "2026-08-28T09:04:50Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-unknown-linux-musl.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 109,
       "digest": "sha256:bc9839dbc9dadf4c347a57225be12464b3ed8eaf3838153b8efd0905bfc40970",
-      "download_count": 108,
+      "download_count": 109,
       "created_at": "2026-08-28T09:06:03Z",
       "updated_at": "2026-08-28T09:06:03Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-apple-darwin.sha256sum"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 11899006,
       "digest": "sha256:78eb322772b92f0fe94c2dbd70477575959f0de0da5913176d49ec70639f79e0",
-      "download_count": 100,
+      "download_count": 102,
       "created_at": "2026-08-28T09:06:01Z",
       "updated_at": "2026-08-28T09:06:02Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-apple-darwin.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 11558912,
       "digest": "sha256:b0c50295a3b37e4c0a0eb51150c8681995995c99467f614ea512c1bf3d88e1bf",
-      "download_count": 75,
+      "download_count": 76,
       "created_at": "2026-08-28T09:17:37Z",
       "updated_at": "2026-08-28T09:17:38Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc-installer.msi"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 13686081,
       "digest": "sha256:e4684687ebabdaf5fba416df3db818f359c05b7121e949b62f9bf04984798919",
-      "download_count": 194,
+      "download_count": 197,
       "created_at": "2026-08-28T09:17:12Z",
       "updated_at": "2026-08-28T09:17:13Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc.zip"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 114,
       "digest": "sha256:69fa6cc70f78068da4f54e65ba5abdf4f3d1fdc42a63582c42224135acdae2a9",
-      "download_count": 219,
+      "download_count": 221,
       "created_at": "2026-08-28T09:03:53Z",
       "updated_at": "2026-08-28T09:03:53Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-unknown-linux-musl.sha256sum"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 14961925,
       "digest": "sha256:d7bda1e18c30a688833ae7627f1d6a253bbba5349a4bc48e4f0ec008aaf75ed1",
-      "download_count": 1402,
+      "download_count": 1445,
       "created_at": "2026-08-28T09:03:51Z",
       "updated_at": "2026-08-28T09:03:52Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-unknown-linux-musl.tar.gz"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 16044196,
       "digest": "sha256:8e8bea22737d1652278c51fc5c26c7c22c9855d0ebb9634a84b8873823093114",
-      "download_count": 1185,
+      "download_count": 1199,
       "created_at": "2026-08-28T09:06:46Z",
       "updated_at": "2026-08-28T09:06:48Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-apple-darwin.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 14614528,
       "digest": "sha256:65081c22417c3526423991c45d5df29c071c035b44bcb53e5c7740df1441c466",
-      "download_count": 2811,
+      "download_count": 2833,
       "created_at": "2026-08-28T09:20:47Z",
       "updated_at": "2026-08-28T09:20:48Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc-installer.msi"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 17336505,
       "digest": "sha256:b854e7b223e67d0705c5f685ef50541c38a57981b13624d09c92bed419b6f80d",
-      "download_count": 1817,
+      "download_count": 1829,
       "created_at": "2026-08-28T09:20:16Z",
       "updated_at": "2026-08-28T09:20:17Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc.zip"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 114,
       "digest": "sha256:343c14ef0c649f971bba6f468635dd259310080c3ba4a85a067152f2c49914d9",
-      "download_count": 1106,
+      "download_count": 1142,
       "created_at": "2026-08-28T09:04:07Z",
       "updated_at": "2026-08-28T09:04:08Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.sha256sum"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 18729165,
       "digest": "sha256:40bcc2e03f5d5ae8e054e39f676081fe12ab70871506996ba595834c3718eefc",
-      "download_count": 17288,
+      "download_count": 17492,
       "created_at": "2026-08-28T09:04:06Z",
       "updated_at": "2026-08-28T09:04:07Z",
       "browser_download_url": "https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.tar.gz"
