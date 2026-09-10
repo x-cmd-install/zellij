@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.45.1"
   latestRelease: "v0.45.1"
   latestPrerelease: "v0.1.0-alpha"
-  collectedAt: 2026-09-10T20:51:18Z
+  collectedAt: 2026-09-10T23:02:33Z
 timeline:
   created: 2020-09-01
   lastCommit: 2026-09-09
@@ -19,7 +19,7 @@ popularity:
   watcher: 116
   fork: 1437
   release: 71
-  contributor: 214
+  contributor: 213
   pullRequest: 2151
   issue: 2891
 language:
@@ -87,7 +87,7 @@ total:
   commit: 3357
 ---
 path: /home/runner/.x-repo/github.com/zellij-org/zellij
-collectedAt: 2026-09-10T20:51:44Z
+collectedAt: 2026-09-10T23:03:01Z
 loc:
   Rust:
     code: 295090
