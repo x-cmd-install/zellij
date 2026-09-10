@@ -4,7 +4,7 @@
 
 A terminal workspace with batteries included
 
-![zellij](https://repo.x-cmd.io/zellij.svg)
+![zellij](https://repo.x-cmd.io/zellij.svg?lang=zh)
 
 ## 安装
 
@@ -23,23 +23,51 @@ x install zellij
 - **最新版本**: `v0.45.1` (2026-08-28)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 24 个
-- **发布时间**: 2026-08-28T09:21:44Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [zellij-aarch64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-apple-darwin.sha256sum) | 109 B | `native/darwin/arm64` |
+| [zellij-aarch64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-apple-darwin.tar.gz) | 14.7 MiB | `native/darwin/arm64` |
+| [zellij-aarch64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-unknown-linux-musl.sha256sum) | 115 B | `native/linux/arm64/musl` |
+| [zellij-aarch64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-unknown-linux-musl.tar.gz) | 17.2 MiB | `native/linux/arm64/musl` |
+| [zellij-no-web-aarch64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-apple-darwin.sha256sum) | 109 B | `native/darwin/arm64` |
+| [zellij-no-web-aarch64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-apple-darwin.tar.gz) | 11.3 MiB | `native/darwin/arm64` |
+| [zellij-no-web-aarch64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-unknown-linux-musl.sha256sum) | 115 B | `native/linux/arm64/musl` |
+| [zellij-no-web-aarch64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-unknown-linux-musl.tar.gz) | 13.8 MiB | `native/linux/arm64/musl` |
+| [zellij-no-web-x86_64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-apple-darwin.sha256sum) | 108 B | `native/darwin/x64` |
+| [zellij-no-web-x86_64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-apple-darwin.tar.gz) | 11.7 MiB | `native/darwin/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc-installer.msi](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc-installer.msi) | 11.0 MiB | `native/win/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc-installer.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc-installer.sha256sum) | 118 B | `native/win/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc.sha256sum) | 93 B | `native/win/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc.zip](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc.zip) | 13.1 MiB | `native/win/x64` |
+| [zellij-no-web-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
+| [zellij-no-web-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-unknown-linux-musl.tar.gz) | 14.3 MiB | `native/linux/x64/musl` |
+| [zellij-x86_64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-apple-darwin.sha256sum) | 108 B | `native/darwin/x64` |
+| [zellij-x86_64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-apple-darwin.tar.gz) | 15.3 MiB | `native/darwin/x64` |
+| [zellij-x86_64-pc-windows-msvc-installer.msi](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc-installer.msi) | 13.9 MiB | `native/win/x64` |
+| [zellij-x86_64-pc-windows-msvc-installer.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc-installer.sha256sum) | 111 B | `native/win/x64` |
+| [zellij-x86_64-pc-windows-msvc.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc.sha256sum) | 93 B | `native/win/x64` |
+| [zellij-x86_64-pc-windows-msvc.zip](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc.zip) | 16.5 MiB | `native/win/x64` |
+| [zellij-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
+| [zellij-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.tar.gz) | 17.9 MiB | `native/linux/x64/musl` |
 
 ## 流行度
 
-- **Star**: 35,350 · **Fork**: 1,435 · **开放 issue**: 2,890 · **贡献者**: 214
+- **Star**: 35,365 · **Fork**: 1,436 · **开放 issue**: 2,891 · **贡献者**: 214
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 1545 · **开放 PR**: 349 · **已关闭 issue**: 1326 · **开放 issue**: 1564 · **提交数**: 3357
+- **发布数**: 71 · **已合并 PR**: 1545 · **开放 PR**: 349 · **已关闭 issue**: 1326 · **开放 issue**: 1565 · **提交数**: 3357
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 26 | 34 | 14 | 55 | 33 |
-| 90d | 2026-06-12 | 2 | 69 | 93 | 32 | 121 | 86 |
-| 360d | 2025-09-15 | 6 | 241 | 231 | 131 | 412 | 290 |
+| 30d | 2026-08-11 | 2 | 26 | 34 | 14 | 57 | 33 |
+| 90d | 2026-06-12 | 2 | 69 | 93 | 32 | 123 | 86 |
+| 360d | 2025-09-15 | 6 | 241 | 231 | 131 | 413 | 290 |
 
 ## 代码规模
 
@@ -72,4 +100,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:01:21Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:48:45Z._
