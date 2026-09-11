@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 35,368 · **Forks**: 1,437 · **Open issues**: 2,891 · **Contributors**: 213
+- **Stars**: 35,369 · **Forks**: 1,437 · **Open issues**: 2,891 · **Contributors**: 213
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 26 | 35 | 14 | 57 | 33 |
-| last60d | 2026-07-12 | 2 | 48 | 62 | 21 | 91 | 64 |
-| 90d | 2026-06-12 | 2 | 69 | 94 | 32 | 123 | 86 |
-| last180d | 2026-03-14 | 6 | 132 | 179 | 87 | 264 | 164 |
-| 360d | 2025-09-15 | 6 | 241 | 232 | 131 | 413 | 290 |
-| last720d | 2024-09-20 | 14 | 409 | 288 | 241 | 730 | 598 |
+| 30d | 2026-08-12 | 2 | 26 | 33 | 14 | 55 | 33 |
+| last60d | 2026-07-13 | 2 | 47 | 62 | 21 | 88 | 64 |
+| 90d | 2026-06-13 | 2 | 69 | 90 | 32 | 121 | 86 |
+| last180d | 2026-03-15 | 6 | 131 | 179 | 86 | 264 | 164 |
+| 360d | 2025-09-16 | 6 | 241 | 232 | 131 | 413 | 290 |
+| last720d | 2024-09-21 | 14 | 409 | 288 | 241 | 726 | 596 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:03:08Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:45:50Z._
