@@ -26,12 +26,12 @@ x install zellij
 
 ## OpenSSF Scorecard 评分
 
-总评分: **2.7 / 10**
+总评分: **2.8 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 8/30 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -48,22 +48,22 @@ x install zellij
 
 ## 流行度
 
-- **Star**: 35,417 · **Fork**: 1,444 · **开放 issue**: 2,896 · **贡献者**: 214
+- **Star**: 35,424 · **Fork**: 1,447 · **开放 issue**: 2,896 · **贡献者**: 214
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 1547 · **开放 PR**: 353 · **已关闭 issue**: 1328 · **开放 issue**: 1568 · **提交数**: 3359
+- **发布数**: 71 · **已合并 PR**: 1547 · **开放 PR**: 355 · **已关闭 issue**: 1329 · **开放 issue**: 1567 · **提交数**: 3359
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 2 | 26 | 34 | 15 | 52 | 23 |
-| last60d | 2026-07-17 | 2 | 46 | 65 | 21 | 86 | 56 |
-| 90d | 2026-06-17 | 2 | 69 | 89 | 30 | 118 | 86 |
-| last180d | 2026-03-19 | 6 | 126 | 181 | 86 | 263 | 156 |
-| 360d | 2025-09-20 | 6 | 243 | 235 | 131 | 413 | 290 |
-| last720d | 2024-09-25 | 14 | 410 | 291 | 240 | 727 | 598 |
+| 30d | 2026-08-17 | 2 | 23 | 34 | 15 | 52 | 23 |
+| last60d | 2026-07-18 | 2 | 45 | 67 | 21 | 84 | 56 |
+| 90d | 2026-06-18 | 2 | 69 | 89 | 30 | 118 | 86 |
+| last180d | 2026-03-20 | 6 | 125 | 181 | 86 | 261 | 156 |
+| 360d | 2025-09-21 | 6 | 243 | 237 | 131 | 413 | 290 |
+| last720d | 2024-09-26 | 14 | 410 | 293 | 239 | 726 | 598 |
 
 ## Release 资产
 
@@ -103,4 +103,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260915.yml` · 2026-09-15T05:09:36Z._
+_数据快照: `data/card/260916.yml` · 2026-09-16T05:04:27Z._
