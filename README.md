@@ -4,7 +4,7 @@
 
 A terminal workspace with batteries included
 
-![zellij](https://repo.x-cmd.io/zellij.svg)
+[![x-cmd/install — zellij Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zellij.svg)](https://x-cmd.com/install/zellij)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 35,447 · **Forks**: 1,452 · **Open issues**: 2,899 · **Contributors**: 214
+- **Stars**: 35,478 · **Forks**: 1,456 · **Open issues**: 2,901 · **Contributors**: 214
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 1547 · **Open PRs**: 356 · **Closed issues**: 1329 · **Open issues**: 1570 · **Commits**: 3359
+- **Releases**: 71 · **Merged PRs**: 1548 · **Open PRs**: 359 · **Closed issues**: 1329 · **Open issues**: 1572 · **Commits**: 3359
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 2 | 21 | 35 | 15 | 54 | 23 |
-| last60d | 2026-07-20 | 2 | 45 | 64 | 20 | 83 | 56 |
-| 90d | 2026-06-20 | 2 | 68 | 86 | 29 | 118 | 86 |
-| last180d | 2026-03-22 | 6 | 124 | 181 | 85 | 264 | 156 |
-| 360d | 2025-09-23 | 6 | 243 | 238 | 129 | 415 | 290 |
-| last720d | 2024-09-28 | 14 | 410 | 294 | 239 | 729 | 598 |
+| 30d | 2026-08-21 | 1 | 20 | 35 | 10 | 52 | 23 |
+| last60d | 2026-07-22 | 2 | 45 | 66 | 19 | 85 | 56 |
+| 90d | 2026-06-22 | 2 | 69 | 88 | 28 | 118 | 86 |
+| last180d | 2026-03-24 | 5 | 123 | 182 | 76 | 257 | 156 |
+| 360d | 2025-09-25 | 6 | 241 | 241 | 128 | 415 | 290 |
+| last720d | 2024-09-30 | 14 | 410 | 297 | 239 | 730 | 598 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:59:39Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:03:51Z._

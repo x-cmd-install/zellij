@@ -4,7 +4,7 @@
 
 A terminal workspace with batteries included
 
-![zellij](https://repo.x-cmd.io/zellij.svg?lang=zh)
+[![x-cmd/install — zellij Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zellij.svg?lang=zh)](https://x-cmd.com/install/zellij)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install zellij
 
 ## 流行度
 
-- **Star**: 35,447 · **Fork**: 1,452 · **开放 issue**: 2,899 · **贡献者**: 214
+- **Star**: 35,478 · **Fork**: 1,456 · **开放 issue**: 2,901 · **贡献者**: 214
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 1547 · **开放 PR**: 356 · **已关闭 issue**: 1329 · **开放 issue**: 1570 · **提交数**: 3359
+- **发布数**: 71 · **已合并 PR**: 1548 · **开放 PR**: 359 · **已关闭 issue**: 1329 · **开放 issue**: 1572 · **提交数**: 3359
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 2 | 21 | 35 | 15 | 54 | 23 |
-| last60d | 2026-07-20 | 2 | 45 | 64 | 20 | 83 | 56 |
-| 90d | 2026-06-20 | 2 | 68 | 86 | 29 | 118 | 86 |
-| last180d | 2026-03-22 | 6 | 124 | 181 | 85 | 264 | 156 |
-| 360d | 2025-09-23 | 6 | 243 | 238 | 129 | 415 | 290 |
-| last720d | 2024-09-28 | 14 | 410 | 294 | 239 | 729 | 598 |
+| 30d | 2026-08-21 | 1 | 20 | 35 | 10 | 52 | 23 |
+| last60d | 2026-07-22 | 2 | 45 | 66 | 19 | 85 | 56 |
+| 90d | 2026-06-22 | 2 | 69 | 88 | 28 | 118 | 86 |
+| last180d | 2026-03-24 | 5 | 123 | 182 | 76 | 257 | 156 |
+| 360d | 2025-09-25 | 6 | 241 | 241 | 128 | 415 | 290 |
+| last720d | 2024-09-30 | 14 | 410 | 297 | 239 | 730 | 598 |
 
 ## Release 资产
 
@@ -103,4 +103,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T04:59:40Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:03:51Z._
