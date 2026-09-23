@@ -4,7 +4,7 @@
 
 A terminal workspace with batteries included
 
-[![x-cmd/install — zellij Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zellij.svg?lang=zh)](https://x-cmd.com/install/zellij)
+[![x-cmd/install — zellij Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/zellij.svg?lang=zh)](https://x-cmd.com/install/zellij)
 
 ## 安装
 
@@ -14,11 +14,11 @@ x install zellij
 
 ## 代码洞察
 
-合计: **307,692** 行代码（覆盖前 5 种语言、共 **448** 个文件）。
+合计: **307,696** 行代码（覆盖前 5 种语言、共 **448** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 295,647 | 7,493 | 18,908 | 381 |
+| Rust | 295,651 | 7,495 | 18,908 | 381 |
 | JavaScript | 6,680 | 435 | 644 | 24 |
 | Protobuf | 4,038 | 70 | 614 | 19 |
 | Toml | 553 | 26 | 59 | 22 |
@@ -30,8 +30,8 @@ x install zellij
 
 评分最低的几项:
 
+- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -43,27 +43,27 @@ x install zellij
 ## 发布
 
 - **最新版本**: `v0.45.1` (2026-08-28)
-- **最近提交**: 2026-09-14
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 24 个
 
 ## 流行度
 
-- **Star**: 35,500 · **Fork**: 1,457 · **开放 issue**: 2,904 · **贡献者**: 214
+- **Star**: 35,513 · **Fork**: 1,459 · **开放 issue**: 2,907 · **贡献者**: 215
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 1548 · **开放 PR**: 361 · **已关闭 issue**: 1329 · **开放 issue**: 1575 · **提交数**: 3359
+- **发布数**: 71 · **已合并 PR**: 1549 · **开放 PR**: 362 · **已关闭 issue**: 1329 · **开放 issue**: 1578 · **提交数**: 3361
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 19 | 36 | 4 | 53 | 7 |
-| last60d | 2026-07-24 | 2 | 43 | 64 | 18 | 81 | 52 |
-| 90d | 2026-06-24 | 2 | 67 | 88 | 25 | 121 | 83 |
-| last180d | 2026-03-26 | 5 | 118 | 180 | 76 | 256 | 140 |
-| 360d | 2025-09-27 | 6 | 241 | 242 | 128 | 418 | 289 |
-| last720d | 2024-10-02 | 14 | 409 | 299 | 239 | 731 | 596 |
+| 30d | 2026-08-24 | 1 | 14 | 38 | 3 | 54 | 9 |
+| last60d | 2026-07-25 | 2 | 44 | 65 | 18 | 83 | 54 |
+| 90d | 2026-06-25 | 2 | 67 | 88 | 25 | 123 | 85 |
+| last180d | 2026-03-27 | 5 | 118 | 181 | 74 | 256 | 142 |
+| 360d | 2025-09-28 | 6 | 242 | 243 | 128 | 421 | 291 |
+| last720d | 2024-10-03 | 14 | 410 | 300 | 238 | 733 | 596 |
 
 ## Release 资产
 
@@ -103,4 +103,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:20:49Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:18:11Z._
