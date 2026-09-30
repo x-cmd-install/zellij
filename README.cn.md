@@ -26,11 +26,11 @@ x install zellij
 
 ## OpenSSF Scorecard 评分
 
-总评分: **2.8 / 10**
+总评分: **2.9 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
+- **Code-Review** (4/10) — Found 13/30 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,22 +48,22 @@ x install zellij
 
 ## 流行度
 
-- **Star**: 35,584 · **Fork**: 1,467 · **开放 issue**: 2,914 · **贡献者**: 220
+- **Star**: 35,595 · **Fork**: 1,470 · **开放 issue**: 2,916 · **贡献者**: 220
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 1560 · **开放 PR**: 359 · **已关闭 issue**: 1335 · **开放 issue**: 1579 · **提交数**: 3372
+- **发布数**: 71 · **已合并 PR**: 1560 · **开放 PR**: 363 · **已关闭 issue**: 1336 · **开放 issue**: 1580 · **提交数**: 3372
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 14 | 29 | 5 | 47 | 16 |
-| last60d | 2026-07-31 | 2 | 47 | 63 | 21 | 84 | 58 |
-| 90d | 2026-07-01 | 2 | 70 | 85 | 28 | 123 | 90 |
-| last180d | 2026-04-02 | 5 | 114 | 163 | 72 | 239 | 141 |
-| 360d | 2025-10-04 | 6 | 251 | 240 | 132 | 415 | 300 |
-| last720d | 2024-10-09 | 14 | 415 | 297 | 240 | 728 | 603 |
+| 30d | 2026-08-31 | 0 | 13 | 33 | 6 | 48 | 16 |
+| last60d | 2026-08-01 | 2 | 47 | 65 | 22 | 84 | 58 |
+| 90d | 2026-07-02 | 2 | 70 | 89 | 29 | 123 | 90 |
+| last180d | 2026-04-03 | 5 | 114 | 167 | 72 | 238 | 141 |
+| 360d | 2025-10-05 | 6 | 251 | 244 | 133 | 416 | 300 |
+| last720d | 2024-10-10 | 14 | 412 | 301 | 241 | 728 | 595 |
 
 ## Release 资产
 
@@ -103,4 +103,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260929.yml` · 2026-09-29T05:51:24Z._
+_数据快照: `data/card/260930.yml` · 2026-09-30T05:44:04Z._

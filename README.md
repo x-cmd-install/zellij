@@ -26,11 +26,11 @@ Total: **323,438** lines of code across **466** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **2.8 / 10**
+Overall score: **2.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 10/30 approved changesets -- score normalized to 3
+- **Code-Review** (4/10) — Found 13/30 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 35,584 · **Forks**: 1,467 · **Open issues**: 2,914 · **Contributors**: 220
+- **Stars**: 35,595 · **Forks**: 1,470 · **Open issues**: 2,916 · **Contributors**: 220
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 1560 · **Open PRs**: 359 · **Closed issues**: 1335 · **Open issues**: 1579 · **Commits**: 3372
+- **Releases**: 71 · **Merged PRs**: 1560 · **Open PRs**: 363 · **Closed issues**: 1336 · **Open issues**: 1580 · **Commits**: 3372
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 14 | 29 | 5 | 47 | 16 |
-| last60d | 2026-07-31 | 2 | 47 | 63 | 21 | 84 | 58 |
-| 90d | 2026-07-01 | 2 | 70 | 85 | 28 | 123 | 90 |
-| last180d | 2026-04-02 | 5 | 114 | 163 | 72 | 239 | 141 |
-| 360d | 2025-10-04 | 6 | 251 | 240 | 132 | 415 | 300 |
-| last720d | 2024-10-09 | 14 | 415 | 297 | 240 | 728 | 603 |
+| 30d | 2026-08-31 | 0 | 13 | 33 | 6 | 48 | 16 |
+| last60d | 2026-08-01 | 2 | 47 | 65 | 22 | 84 | 58 |
+| 90d | 2026-07-02 | 2 | 70 | 89 | 29 | 123 | 90 |
+| last180d | 2026-04-03 | 5 | 114 | 167 | 72 | 238 | 141 |
+| 360d | 2025-10-05 | 6 | 251 | 244 | 133 | 416 | 300 |
+| last720d | 2024-10-10 | 14 | 412 | 301 | 241 | 728 | 595 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:51:23Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:44:04Z._
