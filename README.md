@@ -14,14 +14,14 @@ x install zellij
 
 ## Code insight
 
-Total: **481,645** lines of code across **646** files in the top 5 languages.
+Total: **521,584** lines of code across **706** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 468,072 | 7,125 | 29,298 | 573 |
+| Rust | 507,470 | 7,119 | 31,454 | 632 |
 | JavaScript | 6,680 | 435 | 644 | 24 |
-| Protobuf | 4,978 | 71 | 748 | 21 |
-| Toml | 672 | 26 | 77 | 24 |
+| Protobuf | 5,504 | 71 | 818 | 22 |
+| Toml | 687 | 26 | 79 | 24 |
 | Sh | 510 | 4 | 60 | 4 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.45.1` (2026-08-28)
-- **Last commit**: 2026-10-19
+- **Last commit**: 2026-10-20
 - **Assets in release**: 24
 
 ## Popularity
 
-- **Stars**: 35,773 · **Forks**: 1,504 · **Open issues**: 2,940 · **Contributors**: 225
+- **Stars**: 35,791 · **Forks**: 1,507 · **Open issues**: 2,942 · **Contributors**: 225
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 1588 · **Open PRs**: 361 · **Closed issues**: 1399 · **Open issues**: 1541 · **Commits**: 3400
+- **Releases**: 71 · **Merged PRs**: 1590 · **Open PRs**: 362 · **Closed issues**: 1399 · **Open issues**: 1543 · **Commits**: 3402
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 30 | 25 | 14 | 25 | 34 |
-| last60d | 2026-08-21 | 1 | 57 | 55 | 29 | 72 | 51 |
-| 90d | 2026-07-22 | 2 | 83 | 84 | 39 | 104 | 97 |
-| last180d | 2026-04-23 | 4 | 132 | 156 | 83 | 199 | 155 |
-| 360d | 2025-10-25 | 6 | 276 | 237 | 166 | 392 | 325 |
-| last720d | 2024-10-30 | 14 | 419 | 299 | 282 | 694 | 563 |
+| 30d | 2026-09-21 | 0 | 32 | 26 | 13 | 25 | 36 |
+| last60d | 2026-08-22 | 1 | 58 | 56 | 26 | 73 | 53 |
+| 90d | 2026-07-23 | 2 | 85 | 84 | 39 | 104 | 99 |
+| last180d | 2026-04-24 | 4 | 134 | 157 | 83 | 201 | 157 |
+| 360d | 2025-10-26 | 6 | 278 | 238 | 166 | 393 | 327 |
+| last720d | 2024-10-31 | 14 | 419 | 300 | 281 | 695 | 565 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T05:01:55Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T04:48:30Z._
