@@ -14,14 +14,14 @@ x install zellij
 
 ## 代码洞察
 
-合计: **521,657** 行代码（覆盖前 5 种语言、共 **706** 个文件）。
+合计: **530,629** 行代码（覆盖前 5 种语言、共 **717** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 507,543 | 7,125 | 31,464 | 632 |
+| Rust | 516,430 | 7,109 | 31,970 | 643 |
 | JavaScript | 6,680 | 435 | 644 | 24 |
-| Protobuf | 5,504 | 71 | 818 | 22 |
-| Toml | 687 | 26 | 79 | 24 |
+| Protobuf | 5,529 | 71 | 820 | 22 |
+| Toml | 690 | 26 | 79 | 24 |
 | Sh | 510 | 4 | 60 | 4 |
 
 ## OpenSSF Scorecard 评分
@@ -43,27 +43,27 @@ x install zellij
 ## 发布
 
 - **最新版本**: `v0.45.1` (2026-08-28)
-- **最近提交**: 2026-10-21
+- **最近提交**: 2026-10-22
 - **Release 含资产**: 24 个
 
 ## 流行度
 
-- **Star**: 35,802 · **Fork**: 1,508 · **开放 issue**: 2,944 · **贡献者**: 225
+- **Star**: 35,812 · **Fork**: 1,500 · **开放 issue**: 2,946 · **贡献者**: 225
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 1591 · **开放 PR**: 366 · **已关闭 issue**: 1399 · **开放 issue**: 1545 · **提交数**: 3403
+- **发布数**: 71 · **已合并 PR**: 1593 · **开放 PR**: 363 · **已关闭 issue**: 1399 · **开放 issue**: 1547 · **提交数**: 3405
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 33 | 32 | 13 | 25 | 37 |
-| last60d | 2026-08-23 | 1 | 58 | 62 | 23 | 74 | 54 |
-| 90d | 2026-07-24 | 2 | 84 | 87 | 38 | 101 | 100 |
-| last180d | 2026-04-25 | 4 | 135 | 162 | 83 | 202 | 158 |
-| 360d | 2025-10-27 | 6 | 278 | 243 | 166 | 394 | 328 |
-| last720d | 2024-11-01 | 14 | 420 | 305 | 280 | 695 | 562 |
+| 30d | 2026-09-23 | 0 | 35 | 27 | 12 | 26 | 39 |
+| last60d | 2026-08-24 | 1 | 55 | 60 | 22 | 74 | 56 |
+| 90d | 2026-07-25 | 2 | 86 | 85 | 38 | 102 | 102 |
+| last180d | 2026-04-26 | 4 | 137 | 160 | 83 | 204 | 160 |
+| 360d | 2025-10-28 | 6 | 280 | 241 | 166 | 395 | 330 |
+| last720d | 2024-11-02 | 14 | 422 | 302 | 280 | 697 | 564 |
 
 ## Release 资产
 
@@ -94,6 +94,19 @@ x install zellij
 | [zellij-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
 | [zellij-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.tar.gz) | 17.9 MiB | `native/linux/x64/musl` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/zellij) 上共有 **128** 个发行版报告此项目。**35** 个 ✅ 已是最新上游版本，**58** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `0.45.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Nix unstable | `0.45.1` | ✅ latest |
+| Void | `0.45.1` | ✅ latest |
+| Alpine edge | `0.45.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.45.1` | ✅ latest |
+
 ## 改进这些数据
 
 zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `zellij` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -103,4 +116,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:49:02Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:52:21Z._
