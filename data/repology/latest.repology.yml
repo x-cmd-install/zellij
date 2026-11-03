@@ -1,30 +1,50 @@
-- repo: homebrew
-  srcname: zellij
-  visiblename: zellij
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Pluggable terminal workspace, with terminal multiplexer as the base feature
-- repo: homebrew
+- repo: chromebrew
   srcname: zellij
   visiblename: zellij
   version: 0.45.1
   origversion: null
   status: newest
-  summary: Pluggable terminal workspace, with terminal multiplexer as the base feature
-- repo: alpine_3_18
-  subrepo: community
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.34.4
-  origversion: 0.34.4-r0
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - guddaff@protonmail.com
+  summary: A terminal multiplexer
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: zellij
+  visiblename: zellij
+  version: 0.44.3
+  origversion: 0.44.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: crux_37
+  subrepo: contrib
+  srcname: zellij
+  visiblename: zellij
+  version: 0.42.2
+  origversion: null
+  status: outdated
+  summary: A terminal workspace with batteries included
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: null
+  status: newest
+  summary: A terminal workspace with batteries included
+  maintainers:
+    - tbier@posteo.de
+- repo: wakemeops
+  subrepo: terminal
+  binname: zellij
+  visiblename: zellij
+  version: 0.44.2
+  origversion: 0.44.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: aerynos
   srcname: zellij
   visiblename: zellij
@@ -102,6 +122,19 @@
 - repo: alpine_3_18
   subrepo: community
   srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.34.4
+  origversion: 0.34.4-r0
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: zellij
   binname: zellij-bash-completion
   visiblename: zellij-bash-completion
   version: 0.34.4
@@ -138,6 +171,15 @@
     - guddaff@protonmail.com
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: zellij
+  visiblename: zellij
+  version: 0.44.1
+  origversion: 0.44.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: alpine_3_18
   subrepo: community
   srcname: zellij
@@ -264,251 +306,6 @@
   origversion: 0.40.0-r0
   status: outdated
   summary: Fish completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: zellij
-  binname: zellij-zsh-completion
-  visiblename: zellij-zsh-completion
-  version: 0.40.0
-  origversion: 0.40.0-r0
-  status: outdated
-  summary: Zsh completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.40.0
-  origversion: 0.40.0-r0
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zellij
-  binname: zellij-bash-completion
-  visiblename: zellij-bash-completion
-  version: 0.40.0
-  origversion: 0.40.0-r0
-  status: outdated
-  summary: Bash completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zellij
-  binname: zellij-doc
-  visiblename: zellij-doc
-  version: 0.40.0
-  origversion: 0.40.0-r0
-  status: outdated
-  summary: Terminal multiplexer (documentation)
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zellij
-  binname: zellij-fish-completion
-  visiblename: zellij-fish-completion
-  version: 0.40.0
-  origversion: 0.40.0-r0
-  status: outdated
-  summary: Fish completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zellij
-  binname: zellij-zsh-completion
-  visiblename: zellij-zsh-completion
-  version: 0.40.0
-  origversion: 0.40.0-r0
-  status: outdated
-  summary: Zsh completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.41.2
-  origversion: 0.41.2-r0
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zellij
-  binname: zellij-bash-completion
-  visiblename: zellij-bash-completion
-  version: 0.41.2
-  origversion: 0.41.2-r0
-  status: outdated
-  summary: Bash completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: galaxy
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.45.1
-  origversion: 0.45.1-1
-  status: newest
-  summary: A terminal multiplexer
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zellij
-  binname: zellij-doc
-  visiblename: zellij-doc
-  version: 0.41.2
-  origversion: 0.41.2-r0
-  status: outdated
-  summary: Terminal multiplexer (documentation)
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zellij
-  binname: zellij-fish-completion
-  visiblename: zellij-fish-completion
-  version: 0.41.2
-  origversion: 0.41.2-r0
-  status: outdated
-  summary: Fish completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zellij
-  binname: zellij-zsh-completion
-  visiblename: zellij-zsh-completion
-  version: 0.41.2
-  origversion: 0.41.2-r0
-  status: outdated
-  summary: Zsh completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.42.2
-  origversion: 0.42.2-r0
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zellij
-  binname: zellij-bash-completion
-  visiblename: zellij-bash-completion
-  version: 0.42.2
-  origversion: 0.42.2-r0
-  status: outdated
-  summary: Bash completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zellij
-  binname: zellij-doc
-  visiblename: zellij-doc
-  version: 0.42.2
-  origversion: 0.42.2-r0
-  status: outdated
-  summary: Terminal multiplexer (documentation)
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zellij
-  binname: zellij-fish-completion
-  visiblename: zellij-fish-completion
-  version: 0.42.2
-  origversion: 0.42.2-r0
-  status: outdated
-  summary: Fish completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zellij
-  binname: zellij-zsh-completion
-  visiblename: zellij-zsh-completion
-  version: 0.42.2
-  origversion: 0.42.2-r0
-  status: outdated
-  summary: Zsh completions for zellij
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.42.2
-  origversion: 0.42.2-r0
-  status: outdated
-  summary: Terminal multiplexer
-  maintainers:
-    - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: zellij
-  binname: zellij-bash-completion
-  visiblename: zellij-bash-completion
-  version: 0.42.2
-  origversion: 0.42.2-r0
-  status: outdated
-  summary: Bash completions for zellij
   maintainers:
     - guddaff@protonmail.com
   licenses:
@@ -516,12 +313,257 @@
 - repo: chimera
   subrepo: user
   srcname: zellij
-  binname: zellij
-  visiblename: zellij
+  binname: zellij-doc
+  visiblename: zellij-doc
   version: 0.45.1
   origversion: 0.45.1-r0
   status: newest
-  summary: Terminal workspace with batteries included
+  summary: Terminal workspace with batteries included (documentation)
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: zellij
+  binname: zellij-zsh-completion
+  visiblename: zellij-zsh-completion
+  version: 0.40.0
+  origversion: 0.40.0-r0
+  status: outdated
+  summary: Zsh completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.40.0
+  origversion: 0.40.0-r0
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zellij
+  binname: zellij-bash-completion
+  visiblename: zellij-bash-completion
+  version: 0.40.0
+  origversion: 0.40.0-r0
+  status: outdated
+  summary: Bash completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zellij
+  binname: zellij-doc
+  visiblename: zellij-doc
+  version: 0.40.0
+  origversion: 0.40.0-r0
+  status: outdated
+  summary: Terminal multiplexer (documentation)
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zellij
+  binname: zellij-fish-completion
+  visiblename: zellij-fish-completion
+  version: 0.40.0
+  origversion: 0.40.0-r0
+  status: outdated
+  summary: Fish completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zellij
+  binname: zellij-zsh-completion
+  visiblename: zellij-zsh-completion
+  version: 0.40.0
+  origversion: 0.40.0-r0
+  status: outdated
+  summary: Zsh completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.41.2
+  origversion: 0.41.2-r0
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zellij
+  binname: zellij-bash-completion
+  visiblename: zellij-bash-completion
+  version: 0.41.2
+  origversion: 0.41.2-r0
+  status: outdated
+  summary: Bash completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zellij
+  binname: zellij-doc
+  visiblename: zellij-doc
+  version: 0.41.2
+  origversion: 0.41.2-r0
+  status: outdated
+  summary: Terminal multiplexer (documentation)
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zellij
+  binname: zellij-fish-completion
+  visiblename: zellij-fish-completion
+  version: 0.41.2
+  origversion: 0.41.2-r0
+  status: outdated
+  summary: Fish completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zellij
+  binname: zellij-fishcomp
+  visiblename: zellij-fishcomp
+  version: 0.45.1
+  origversion: 0.45.1-r0
+  status: newest
+  summary: Terminal workspace with batteries included (fish completions)
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zellij
+  binname: zellij-zsh-completion
+  visiblename: zellij-zsh-completion
+  version: 0.41.2
+  origversion: 0.41.2-r0
+  status: outdated
+  summary: Zsh completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.42.2
+  origversion: 0.42.2-r0
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zellij
+  binname: zellij-bash-completion
+  visiblename: zellij-bash-completion
+  version: 0.42.2
+  origversion: 0.42.2-r0
+  status: outdated
+  summary: Bash completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zellij
+  binname: zellij-doc
+  visiblename: zellij-doc
+  version: 0.42.2
+  origversion: 0.42.2-r0
+  status: outdated
+  summary: Terminal multiplexer (documentation)
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zellij
+  binname: zellij-fish-completion
+  visiblename: zellij-fish-completion
+  version: 0.42.2
+  origversion: 0.42.2-r0
+  status: outdated
+  summary: Fish completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zellij
+  binname: zellij-zsh-completion
+  visiblename: zellij-zsh-completion
+  version: 0.42.2
+  origversion: 0.42.2-r0
+  status: outdated
+  summary: Zsh completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.42.2
+  origversion: 0.42.2-r0
+  status: outdated
+  summary: Terminal multiplexer
+  maintainers:
+    - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: zellij
+  binname: zellij-bash-completion
+  visiblename: zellij-bash-completion
+  version: 0.42.2
+  origversion: 0.42.2-r0
+  status: outdated
+  summary: Bash completions for zellij
+  maintainers:
+    - guddaff@protonmail.com
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -548,6 +590,17 @@
   summary: Fish completions for zellij
   maintainers:
     - guddaff@protonmail.com
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zellij
+  binname: zellij-zshcomp
+  visiblename: zellij-zshcomp
+  version: 0.45.1
+  origversion: 0.45.1-r0
+  status: newest
+  summary: Terminal workspace with batteries included (zsh completions)
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -681,6 +734,28 @@
     - alerque@aur
   licenses:
     - MIT
+- repo: artix
+  subrepo: galaxy
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: 0.45.1-1
+  status: newest
+  summary: A terminal multiplexer
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: 0.45.1-r0
+  status: newest
+  summary: Terminal workspace with batteries included
+  licenses:
+    - MIT
 - repo: chimera
   subrepo: user
   srcname: zellij
@@ -692,68 +767,6 @@
   summary: Terminal workspace with batteries included (bash completions)
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zellij
-  binname: zellij-doc
-  visiblename: zellij-doc
-  version: 0.45.1
-  origversion: 0.45.1-r0
-  status: newest
-  summary: Terminal workspace with batteries included (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zellij
-  binname: zellij-fishcomp
-  visiblename: zellij-fishcomp
-  version: 0.45.1
-  origversion: 0.45.1-r0
-  status: newest
-  summary: Terminal workspace with batteries included (fish completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zellij
-  binname: zellij-zshcomp
-  visiblename: zellij-zshcomp
-  version: 0.45.1
-  origversion: 0.45.1-r0
-  status: newest
-  summary: Terminal workspace with batteries included (zsh completions)
-  licenses:
-    - MIT
-- repo: chromebrew
-  srcname: zellij
-  visiblename: zellij
-  version: 0.45.1
-  origversion: null
-  status: newest
-  summary: A terminal multiplexer
-  licenses:
-    - MIT
-- repo: crux_37
-  subrepo: contrib
-  srcname: zellij
-  visiblename: zellij
-  version: 0.42.2
-  origversion: null
-  status: outdated
-  summary: A terminal workspace with batteries included
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: contrib
-  srcname: zellij
-  visiblename: zellij
-  version: 0.45.1
-  origversion: null
-  status: newest
-  summary: A terminal workspace with batteries included
-  maintainers:
-    - tbier@posteo.de
 - repo: exherbo
   subrepo: keruspe
   srcname: app-terminal/zellij
@@ -847,6 +860,20 @@
     - ZLIB
   categories:
     - app-misc
+- repo: homebrew
+  srcname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: null
+  status: newest
+  summary: Pluggable terminal workspace, with terminal multiplexer as the base feature
+- repo: homebrew
+  srcname: zellij
+  visiblename: zellij
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Pluggable terminal workspace, with terminal multiplexer as the base feature
 - repo: liguros_stable
   srcname: app-misc/zellij
   visiblename: app-misc/zellij
@@ -916,6 +943,21 @@
     - ZLIB
   categories:
     - app-misc
+- repo: nix_unstable
+  srcname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: null
+  status: newest
+  summary: Terminal workspace with batteries included
+  maintainers:
+    - tyagiansh23@gmail.com
+    - mail-maintainer@0x4a6f.dev
+    - ashish.is@lostca.se
+    - mail@beyermatthias.de
+    - xiaoyin_c@qq.com
+  licenses:
+    - MIT
 - repo: liguros_develop
   srcname: app-misc/zellij
   visiblename: app-misc/zellij
@@ -981,9 +1023,9 @@
   srcname: zellij
   binname: zellij
   visiblename: zellij
-  version: 0.45.1
-  origversion: 0.45.1-1
-  status: newest
+  version: 0.38.2
+  origversion: 0.38.2-1
+  status: outdated
   summary: A terminal multiplexer
   licenses:
     - MIT
@@ -992,9 +1034,9 @@
   srcname: zellij
   binname: zellij
   visiblename: zellij
-  version: 0.45.1
-  origversion: 0.45.1-1
-  status: newest
+  version: 0.38.2
+  origversion: 0.38.2-1
+  status: outdated
   summary: A terminal multiplexer
   licenses:
     - MIT
@@ -1067,20 +1109,6 @@
     - xiaoyin_c@qq.com
   licenses:
     - MIT
-- repo: solus
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.45.1
-  origversion: null
-  status: newest
-  summary: A terminal workspace with batteries included
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - MIT
-  categories:
-    - system.utils
 - repo: nix_stable_26_05
   srcname: zellij
   visiblename: zellij
@@ -1111,21 +1139,15 @@
     - xiaoyin_c@qq.com
   licenses:
     - MIT
-- repo: nix_unstable
-  srcname: zellij
+- repo: wakemeops
+  subrepo: terminal
+  binname: zellij
   visiblename: zellij
-  version: 0.45.1
-  origversion: null
-  status: newest
-  summary: Terminal workspace with batteries included
+  version: 0.41.2
+  origversion: 0.41.2-1~ops2deb
+  status: legacy
   maintainers:
-    - tyagiansh23@gmail.com
-    - mail-maintainer@0x4a6f.dev
-    - ashish.is@lostca.se
-    - mail@beyermatthias.de
-    - xiaoyin_c@qq.com
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
 - repo: nix_unstable
   srcname: zellij-unwrapped
   visiblename: zellij-unwrapped
@@ -1266,6 +1288,20 @@
     - MIT
 - repo: solus
   srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: null
+  status: newest
+  summary: A terminal workspace with batteries included
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - MIT
+  categories:
+    - system.utils
+- repo: solus
+  srcname: zellij
   binname: zellij-dbginfo
   visiblename: zellij-dbginfo
   version: 0.45.1
@@ -1358,33 +1394,6 @@
   subrepo: terminal
   binname: zellij
   visiblename: zellij
-  version: 0.44.3
-  origversion: 0.44.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zellij
-  visiblename: zellij
-  version: 0.44.2
-  origversion: 0.44.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zellij
-  visiblename: zellij
-  version: 0.44.1
-  origversion: 0.44.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zellij
-  visiblename: zellij
   version: 0.44.0
   origversion: 0.44.0-1~ops2deb
   status: legacy
@@ -1432,15 +1441,6 @@
   visiblename: zellij
   version: 0.42.0
   origversion: 0.42.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zellij
-  visiblename: zellij
-  version: 0.41.2
-  origversion: 0.41.2-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
