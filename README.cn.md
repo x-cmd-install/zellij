@@ -14,14 +14,14 @@ x install zellij
 
 ## 代码洞察
 
-合计: **577,320** 行代码（覆盖前 5 种语言、共 **859** 个文件）。
+合计: **577,725** 行代码（覆盖前 5 种语言、共 **860** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 562,833 | 7,149 | 34,418 | 784 |
+| Rust | 563,236 | 7,172 | 34,440 | 785 |
 | JavaScript | 6,680 | 435 | 644 | 24 |
 | Protobuf | 5,809 | 71 | 864 | 23 |
-| Toml | 698 | 26 | 80 | 24 |
+| Toml | 700 | 27 | 81 | 24 |
 | Sh | 510 | 4 | 60 | 4 |
 
 ## OpenSSF Scorecard 评分
@@ -42,70 +42,76 @@ x install zellij
 
 ## 发布
 
-- **最新版本**: `v0.45.1` (2026-08-28)
-- **最近提交**: 2026-11-10
-- **Release 含资产**: 24 个
+- **最新版本**: `v0.46.0` (2026-11-11)
+- **最近提交**: 2026-11-11
+- **Release 含资产**: 30 个
 
 ## 流行度
 
-- **Star**: 36,000 · **Fork**: 1,527 · **开放 issue**: 2,973 · **贡献者**: 228
+- **Star**: 36,021 · **Fork**: 1,533 · **开放 issue**: 2,979 · **贡献者**: 228
 
 ## 累计统计
 
-- **发布数**: 71 · **已合并 PR**: 1640 · **开放 PR**: 383 · **已关闭 issue**: 1415 · **开放 issue**: 1558 · **提交数**: 3454
+- **发布数**: 72 · **已合并 PR**: 1643 · **开放 PR**: 383 · **已关闭 issue**: 1415 · **开放 issue**: 1564 · **提交数**: 3459
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 57 | 40 | 9 | 35 | 60 |
-| last60d | 2026-09-12 | 0 | 86 | 66 | 23 | 58 | 95 |
-| 90d | 2026-08-13 | 2 | 117 | 92 | 42 | 104 | 130 |
-| last180d | 2026-05-15 | 2 | 165 | 168 | 76 | 200 | 185 |
-| 360d | 2025-11-16 | 6 | 326 | 260 | 174 | 398 | 378 |
-| last720d | 2024-11-21 | 11 | 452 | 319 | 271 | 688 | 570 |
+| 30d | 2026-10-13 | 1 | 59 | 38 | 9 | 40 | 65 |
+| last60d | 2026-09-13 | 1 | 89 | 65 | 22 | 64 | 100 |
+| 90d | 2026-08-14 | 3 | 120 | 89 | 42 | 110 | 135 |
+| last180d | 2026-05-16 | 3 | 167 | 168 | 76 | 205 | 190 |
+| 360d | 2025-11-17 | 7 | 329 | 260 | 174 | 404 | 383 |
+| last720d | 2024-11-22 | 12 | 455 | 317 | 271 | 692 | 573 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [zellij-aarch64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-apple-darwin.sha256sum) | 109 B | `native/darwin/arm64` |
-| [zellij-aarch64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-apple-darwin.tar.gz) | 14.7 MiB | `native/darwin/arm64` |
-| [zellij-aarch64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-unknown-linux-musl.sha256sum) | 115 B | `native/linux/arm64/musl` |
-| [zellij-aarch64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-aarch64-unknown-linux-musl.tar.gz) | 17.2 MiB | `native/linux/arm64/musl` |
-| [zellij-no-web-aarch64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-apple-darwin.sha256sum) | 109 B | `native/darwin/arm64` |
-| [zellij-no-web-aarch64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-apple-darwin.tar.gz) | 11.3 MiB | `native/darwin/arm64` |
-| [zellij-no-web-aarch64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-unknown-linux-musl.sha256sum) | 115 B | `native/linux/arm64/musl` |
-| [zellij-no-web-aarch64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-aarch64-unknown-linux-musl.tar.gz) | 13.8 MiB | `native/linux/arm64/musl` |
-| [zellij-no-web-x86_64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-apple-darwin.sha256sum) | 108 B | `native/darwin/x64` |
-| [zellij-no-web-x86_64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-apple-darwin.tar.gz) | 11.7 MiB | `native/darwin/x64` |
-| [zellij-no-web-x86_64-pc-windows-msvc-installer.msi](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc-installer.msi) | 11.0 MiB | `native/win/x64` |
-| [zellij-no-web-x86_64-pc-windows-msvc-installer.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc-installer.sha256sum) | 118 B | `native/win/x64` |
-| [zellij-no-web-x86_64-pc-windows-msvc.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc.sha256sum) | 93 B | `native/win/x64` |
-| [zellij-no-web-x86_64-pc-windows-msvc.zip](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-pc-windows-msvc.zip) | 13.1 MiB | `native/win/x64` |
-| [zellij-no-web-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
-| [zellij-no-web-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-no-web-x86_64-unknown-linux-musl.tar.gz) | 14.3 MiB | `native/linux/x64/musl` |
-| [zellij-x86_64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-apple-darwin.sha256sum) | 108 B | `native/darwin/x64` |
-| [zellij-x86_64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-apple-darwin.tar.gz) | 15.3 MiB | `native/darwin/x64` |
-| [zellij-x86_64-pc-windows-msvc-installer.msi](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc-installer.msi) | 13.9 MiB | `native/win/x64` |
-| [zellij-x86_64-pc-windows-msvc-installer.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc-installer.sha256sum) | 111 B | `native/win/x64` |
-| [zellij-x86_64-pc-windows-msvc.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc.sha256sum) | 93 B | `native/win/x64` |
-| [zellij-x86_64-pc-windows-msvc.zip](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-pc-windows-msvc.zip) | 16.5 MiB | `native/win/x64` |
-| [zellij-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
-| [zellij-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.45.1/zellij-x86_64-unknown-linux-musl.tar.gz) | 17.9 MiB | `native/linux/x64/musl` |
+| [zellij-aarch64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-apple-darwin.sha256sum) | 109 B | `native/darwin/arm64` |
+| [zellij-aarch64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-apple-darwin.tar.gz) | 32.7 MiB | `native/darwin/arm64` |
+| [zellij-aarch64-unknown-linux-gnu.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-unknown-linux-gnu.sha256sum) | 114 B | `native/linux/arm64/glibc` |
+| [zellij-aarch64-unknown-linux-gnu.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-unknown-linux-gnu.tar.gz) | 36.0 MiB | `native/linux/arm64/glibc` |
+| [zellij-aarch64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-unknown-linux-musl.sha256sum) | 115 B | `native/linux/arm64/musl` |
+| [zellij-aarch64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-aarch64-unknown-linux-musl.tar.gz) | 35.9 MiB | `native/linux/arm64/musl` |
+| [zellij-desktop-files.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-desktop-files.sha256sum) | 94 B | `other` |
+| [zellij-desktop-files.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-desktop-files.tar.gz) | 100.5 KiB | `native/unknown` |
+| [zellij-no-web-aarch64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-aarch64-apple-darwin.sha256sum) | 109 B | `native/darwin/arm64` |
+| [zellij-no-web-aarch64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-aarch64-apple-darwin.tar.gz) | 30.0 MiB | `native/darwin/arm64` |
+| [zellij-no-web-aarch64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-aarch64-unknown-linux-musl.sha256sum) | 115 B | `native/linux/arm64/musl` |
+| [zellij-no-web-aarch64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-aarch64-unknown-linux-musl.tar.gz) | 33.3 MiB | `native/linux/arm64/musl` |
+| [zellij-no-web-x86_64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-apple-darwin.sha256sum) | 108 B | `native/darwin/x64` |
+| [zellij-no-web-x86_64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-apple-darwin.tar.gz) | 30.7 MiB | `native/darwin/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc-installer.msi](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-pc-windows-msvc-installer.msi) | 28.8 MiB | `native/win/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc-installer.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-pc-windows-msvc-installer.sha256sum) | 118 B | `native/win/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-pc-windows-msvc.sha256sum) | 195 B | `native/win/x64` |
+| [zellij-no-web-x86_64-pc-windows-msvc.zip](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-pc-windows-msvc.zip) | 32.7 MiB | `native/win/x64` |
+| [zellij-no-web-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
+| [zellij-no-web-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-unknown-linux-musl.tar.gz) | 34.2 MiB | `native/linux/x64/musl` |
+| [zellij-x86_64-apple-darwin.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-apple-darwin.sha256sum) | 108 B | `native/darwin/x64` |
+| [zellij-x86_64-apple-darwin.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-apple-darwin.tar.gz) | 33.6 MiB | `native/darwin/x64` |
+| [zellij-x86_64-pc-windows-msvc-installer.msi](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-pc-windows-msvc-installer.msi) | 31.1 MiB | `native/win/x64` |
+| [zellij-x86_64-pc-windows-msvc-installer.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-pc-windows-msvc-installer.sha256sum) | 111 B | `native/win/x64` |
+| [zellij-x86_64-pc-windows-msvc.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-pc-windows-msvc.sha256sum) | 195 B | `native/win/x64` |
+| [zellij-x86_64-pc-windows-msvc.zip](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-pc-windows-msvc.zip) | 35.5 MiB | `native/win/x64` |
+| [zellij-x86_64-unknown-linux-gnu.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-unknown-linux-gnu.sha256sum) | 113 B | `native/linux/x64/glibc` |
+| [zellij-x86_64-unknown-linux-gnu.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-unknown-linux-gnu.tar.gz) | 37.0 MiB | `native/linux/x64/glibc` |
+| [zellij-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
+| [zellij-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-unknown-linux-musl.tar.gz) | 37.1 MiB | `native/linux/x64/musl` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/zellij) 上共有 **130** 个发行版报告此项目。**45** 个 ✅ 已是最新上游版本，**50** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/zellij) 上共有 **129** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**82** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Arch | `0.45.1` | ✅ latest |
-| Homebrew | `0.45.1` | ✅ latest |
-| Nix unstable | `0.45.1` | ✅ latest |
-| Void | `0.45.1` | ✅ latest |
-| Alpine edge | `0.45.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.45.1` | ✅ latest |
+| Arch | `0.45.1` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Nix unstable | `0.45.1` | ⚠️ outdated |
+| Void | `0.46.0` | ✅ latest |
+| Alpine edge | `0.45.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.45.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -116,4 +122,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261111.yml` · 2026-11-11T06:14:51Z._
+_数据快照: `data/card/261112.yml` · 2026-11-12T07:47:29Z._
