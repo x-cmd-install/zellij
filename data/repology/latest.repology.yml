@@ -1,22 +1,34 @@
-- repo: chromebrew
+- repo: chimera
+  subrepo: user
   srcname: zellij
-  visiblename: zellij
+  binname: zellij-doc
+  visiblename: zellij-doc
   version: 0.45.1
-  origversion: null
+  origversion: 0.45.1-r0
   status: outdated
+  summary: Terminal workspace with batteries included (documentation)
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.46.0
+  origversion: 0.46.0-1
+  status: newest
   summary: A terminal multiplexer
   licenses:
     - MIT
-- repo: crux_37
-  subrepo: contrib
-  srcname: zellij
+- repo: wakemeops
+  subrepo: terminal
+  binname: zellij
   visiblename: zellij
-  version: 0.42.2
-  origversion: null
-  status: outdated
-  summary: A terminal workspace with batteries included
+  version: 0.34.4
+  origversion: 0.34.4-1~ops2deb
+  status: legacy
   maintainers:
-    - tbier@posteo.de
+    - ops2deb@upciti.com
 - repo: aerynos
   srcname: zellij
   visiblename: zellij
@@ -143,16 +155,6 @@
     - guddaff@protonmail.com
   licenses:
     - MIT
-- repo: crux_38
-  subrepo: contrib
-  srcname: zellij
-  visiblename: zellij
-  version: 0.46.0
-  origversion: null
-  status: newest
-  summary: A terminal workspace with batteries included
-  maintainers:
-    - tbier@posteo.de
 - repo: alpine_3_18
   subrepo: community
   srcname: zellij
@@ -283,17 +285,6 @@
     - guddaff@protonmail.com
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zellij
-  binname: zellij-doc
-  visiblename: zellij-doc
-  version: 0.45.1
-  origversion: 0.45.1-r0
-  status: outdated
-  summary: Terminal workspace with batteries included (documentation)
-  licenses:
-    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: zellij
@@ -411,6 +402,17 @@
     - guddaff@protonmail.com
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zellij
+  binname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: 0.45.1-r0
+  status: outdated
+  summary: Terminal workspace with batteries included
+  licenses:
+    - MIT
 - repo: alpine_3_22
   subrepo: community
   srcname: zellij
@@ -422,17 +424,6 @@
   summary: Fish completions for zellij
   maintainers:
     - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zellij
-  binname: zellij-fishcomp
-  visiblename: zellij-fishcomp
-  version: 0.45.1
-  origversion: 0.45.1-r0
-  status: outdated
-  summary: Terminal workspace with batteries included (fish completions)
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -552,6 +543,17 @@
     - guddaff@protonmail.com
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zellij
+  binname: zellij-bashcomp
+  visiblename: zellij-bashcomp
+  version: 0.45.1
+  origversion: 0.45.1-r0
+  status: outdated
+  summary: Terminal workspace with batteries included (bash completions)
+  licenses:
+    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: zellij
@@ -563,17 +565,6 @@
   summary: Fish completions for zellij
   maintainers:
     - guddaff@protonmail.com
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zellij
-  binname: zellij-zshcomp
-  visiblename: zellij-zshcomp
-  version: 0.45.1
-  origversion: 0.45.1-r0
-  status: outdated
-  summary: Terminal workspace with batteries included (zsh completions)
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -718,35 +709,73 @@
   summary: A terminal multiplexer
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zellij
+- repo: scoop
+  subrepo: main
   binname: zellij
   visiblename: zellij
-  version: 0.45.1
-  origversion: 0.45.1-r0
-  status: outdated
-  summary: Terminal workspace with batteries included
+  version: 0.46.0
+  origversion: null
+  status: newest
   licenses:
     - MIT
 - repo: chimera
   subrepo: user
   srcname: zellij
-  binname: zellij-bashcomp
-  visiblename: zellij-bashcomp
+  binname: zellij-fishcomp
+  visiblename: zellij-fishcomp
   version: 0.45.1
   origversion: 0.45.1-r0
   status: outdated
-  summary: Terminal workspace with batteries included (bash completions)
+  summary: Terminal workspace with batteries included (fish completions)
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zellij
+  binname: zellij-zshcomp
+  visiblename: zellij-zshcomp
+  version: 0.45.1
+  origversion: 0.45.1-r0
+  status: outdated
+  summary: Terminal workspace with batteries included (zsh completions)
+  licenses:
+    - MIT
+- repo: chromebrew
+  srcname: zellij
+  visiblename: zellij
+  version: 0.45.1
+  origversion: null
+  status: outdated
+  summary: A terminal multiplexer
+  licenses:
+    - MIT
+- repo: crux_37
+  subrepo: contrib
+  srcname: zellij
+  visiblename: zellij
+  version: 0.42.2
+  origversion: null
+  status: outdated
+  summary: A terminal workspace with batteries included
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: zellij
+  visiblename: zellij
+  version: 0.46.0
+  origversion: null
+  status: newest
+  summary: A terminal workspace with batteries included
+  maintainers:
+    - tbier@posteo.de
 - repo: exherbo
   subrepo: keruspe
   srcname: app-terminal/zellij
   visiblename: app-terminal/zellij
-  version: 0.45.1
+  version: 0.46.0
   origversion: null
-  status: outdated
+  status: newest
   summary: A terminal workspace with batteries included
   maintainers:
     - fallback-mnt-exherbo@repology
@@ -915,15 +944,6 @@
     - ZLIB
   categories:
     - app-misc
-- repo: wakemeops
-  subrepo: terminal
-  binname: zellij
-  visiblename: zellij
-  version: 0.42.1
-  origversion: 0.42.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: liguros_develop
   srcname: app-misc/zellij
   visiblename: app-misc/zellij
@@ -1007,17 +1027,6 @@
   summary: A terminal multiplexer
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: zellij
-  binname: zellij
-  visiblename: zellij
-  version: 0.46.0
-  origversion: 0.46.0-1
-  status: newest
-  summary: A terminal multiplexer
-  licenses:
-    - MIT
 - repo: nix_stable_24_05
   srcname: zellij
   visiblename: zellij
@@ -1046,15 +1055,6 @@
     - pyrox@pyrox.dev
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: zellij
-  visiblename: zellij
-  version: 0.45.1
-  origversion: 0.45.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: nix_stable_25_05
   srcname: zellij
   visiblename: zellij
@@ -1259,15 +1259,6 @@
     - MIT
   categories:
     - Terminals
-- repo: scoop
-  subrepo: main
-  binname: zellij
-  visiblename: zellij
-  version: 0.46.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: solus
   srcname: zellij
   binname: zellij
@@ -1367,6 +1358,15 @@
   subrepo: terminal
   binname: zellij
   visiblename: zellij
+  version: 0.45.1
+  origversion: 0.45.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: zellij
+  visiblename: zellij
   version: 0.45.0
   origversion: 0.45.0-1~ops2deb
   status: legacy
@@ -1432,6 +1432,15 @@
   visiblename: zellij
   version: 0.42.2
   origversion: 0.42.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: zellij
+  visiblename: zellij
+  version: 0.42.1
+  origversion: 0.42.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1594,15 +1603,6 @@
   visiblename: zellij
   version: 0.35.1
   origversion: 0.35.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zellij
-  visiblename: zellij
-  version: 0.34.4
-  origversion: 0.34.4-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
