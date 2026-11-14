@@ -14,12 +14,12 @@ x install zellij
 
 ## Code insight
 
-Total: **577,725** lines of code across **860** files in the top 5 languages.
+Total: **578,469** lines of code across **861** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 563,236 | 7,172 | 34,440 | 785 |
-| JavaScript | 6,680 | 435 | 644 | 24 |
+| Rust | 563,838 | 7,197 | 34,488 | 786 |
+| JavaScript | 6,822 | 473 | 650 | 24 |
 | Protobuf | 5,809 | 71 | 864 | 23 |
 | Toml | 700 | 27 | 81 | 24 |
 | Sh | 510 | 4 | 60 | 4 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.46.0` (2026-11-11)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-13
 - **Assets in release**: 30
 
 ## Popularity
 
-- **Stars**: 36,045 · **Forks**: 1,534 · **Open issues**: 2,984 · **Contributors**: 228
+- **Stars**: 36,044 · **Forks**: 1,535 · **Open issues**: 2,991 · **Contributors**: 228
 
 ## Totals (cumulative)
 
-- **Releases**: 72 · **Merged PRs**: 1644 · **Open PRs**: 383 · **Closed issues**: 1416 · **Open issues**: 1568 · **Commits**: 3460
+- **Releases**: 72 · **Merged PRs**: 1651 · **Open PRs**: 393 · **Closed issues**: 1419 · **Open issues**: 1572 · **Commits**: 3468
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 1 | 60 | 38 | 10 | 44 | 66 |
-| last60d | 2026-09-14 | 1 | 89 | 63 | 23 | 67 | 101 |
-| 90d | 2026-08-15 | 3 | 120 | 89 | 43 | 114 | 136 |
-| last180d | 2026-05-17 | 3 | 167 | 168 | 76 | 207 | 191 |
-| 360d | 2025-11-18 | 7 | 329 | 260 | 175 | 407 | 384 |
-| last720d | 2024-11-23 | 12 | 456 | 317 | 272 | 696 | 574 |
+| 30d | 2026-10-15 | 1 | 65 | 48 | 11 | 44 | 74 |
+| last60d | 2026-09-15 | 1 | 95 | 73 | 26 | 69 | 109 |
+| 90d | 2026-08-16 | 3 | 127 | 100 | 46 | 116 | 144 |
+| last180d | 2026-05-18 | 3 | 174 | 179 | 79 | 211 | 199 |
+| 360d | 2025-11-19 | 7 | 336 | 270 | 178 | 409 | 392 |
+| last720d | 2024-11-24 | 12 | 462 | 325 | 274 | 699 | 582 |
 
 ## Release assets
 
@@ -102,7 +102,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/zellij). **18** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/zellij). **19** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:46:53Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:28:15Z._
