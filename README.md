@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,071 · **Forks**: 1,540 · **Open issues**: 2,994 · **Contributors**: 228
+- **Stars**: 36,089 · **Forks**: 1,544 · **Open issues**: 2,999 · **Contributors**: 228
 
 ## Totals (cumulative)
 
-- **Releases**: 72 · **Merged PRs**: 1651 · **Open PRs**: 397 · **Closed issues**: 1420 · **Open issues**: 1574 · **Commits**: 3468
+- **Releases**: 72 · **Merged PRs**: 1651 · **Open PRs**: 400 · **Closed issues**: 1421 · **Open issues**: 1578 · **Commits**: 3468
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 1 | 65 | 53 | 12 | 46 | 74 |
-| last60d | 2026-09-16 | 1 | 95 | 78 | 27 | 70 | 109 |
-| 90d | 2026-08-17 | 3 | 124 | 103 | 47 | 118 | 144 |
-| last180d | 2026-05-19 | 3 | 174 | 180 | 80 | 209 | 199 |
-| 360d | 2025-11-20 | 7 | 336 | 274 | 178 | 410 | 392 |
-| last720d | 2024-11-25 | 12 | 462 | 329 | 275 | 700 | 580 |
+| 30d | 2026-10-17 | 1 | 65 | 57 | 13 | 50 | 63 |
+| last60d | 2026-09-17 | 1 | 95 | 81 | 28 | 72 | 107 |
+| 90d | 2026-08-18 | 3 | 124 | 107 | 48 | 122 | 132 |
+| last180d | 2026-05-20 | 3 | 174 | 184 | 80 | 210 | 199 |
+| 360d | 2025-11-21 | 7 | 336 | 278 | 179 | 414 | 392 |
+| last720d | 2024-11-26 | 12 | 462 | 331 | 276 | 704 | 580 |
 
 ## Release assets
 
@@ -102,7 +102,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **129** distros on [repology.org](https://repology.org/project/zellij). **19** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/zellij). **20** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:35:48Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:33:24Z._
