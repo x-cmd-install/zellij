@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,213 · **Forks**: 1,559 · **Open issues**: 3,022 · **Contributors**: 231
+- **Stars**: 36,238 · **Forks**: 1,562 · **Open issues**: 3,026 · **Contributors**: 231
 
 ## Totals (cumulative)
 
-- **Releases**: 73 · **Merged PRs**: 1681 · **Open PRs**: 399 · **Closed issues**: 1442 · **Open issues**: 1580 · **Commits**: 3499
+- **Releases**: 73 · **Merged PRs**: 1681 · **Open PRs**: 399 · **Closed issues**: 1442 · **Open issues**: 1584 · **Commits**: 3499
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 83 | 48 | 25 | 47 | 79 |
-| last60d | 2026-09-25 | 2 | 118 | 72 | 42 | 71 | 127 |
-| 90d | 2026-08-26 | 3 | 133 | 100 | 51 | 116 | 144 |
-| last180d | 2026-05-28 | 4 | 204 | 179 | 94 | 207 | 229 |
-| 360d | 2025-11-29 | 8 | 366 | 277 | 197 | 410 | 423 |
-| last720d | 2024-12-04 | 13 | 491 | 331 | 286 | 700 | 609 |
+| 30d | 2026-10-26 | 2 | 78 | 44 | 23 | 50 | 79 |
+| last60d | 2026-09-26 | 2 | 117 | 72 | 41 | 75 | 127 |
+| 90d | 2026-08-27 | 3 | 133 | 100 | 51 | 119 | 144 |
+| last180d | 2026-05-29 | 4 | 204 | 178 | 93 | 211 | 229 |
+| 360d | 2025-11-30 | 8 | 366 | 277 | 197 | 413 | 423 |
+| last720d | 2024-12-05 | 13 | 489 | 331 | 286 | 701 | 609 |
 
 ## Release assets
 
@@ -104,19 +104,6 @@ Lowest-scoring checks:
 | [zellij-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.1/zellij-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
 | [zellij-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.1/zellij-x86_64-unknown-linux-musl.tar.gz) | 35.1 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **131** distros on [repology.org](https://repology.org/project/zellij). **1** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `0.46.0` | ⚠️ outdated |
-| Homebrew | `0.46.0` | ⚠️ outdated |
-| Nix unstable | `0.46.0` | ⚠️ outdated |
-| Void | `0.46.0` | ⚠️ outdated |
-| Alpine edge | `0.45.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.45.1` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `zellij` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -126,4 +113,4 @@ Install metadata for zellij lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:09:23Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:42:33Z._

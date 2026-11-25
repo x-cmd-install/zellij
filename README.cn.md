@@ -48,22 +48,22 @@ x install zellij
 
 ## 流行度
 
-- **Star**: 36,213 · **Fork**: 1,559 · **开放 issue**: 3,022 · **贡献者**: 231
+- **Star**: 36,238 · **Fork**: 1,562 · **开放 issue**: 3,026 · **贡献者**: 231
 
 ## 累计统计
 
-- **发布数**: 73 · **已合并 PR**: 1681 · **开放 PR**: 399 · **已关闭 issue**: 1442 · **开放 issue**: 1580 · **提交数**: 3499
+- **发布数**: 73 · **已合并 PR**: 1681 · **开放 PR**: 399 · **已关闭 issue**: 1442 · **开放 issue**: 1584 · **提交数**: 3499
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 2 | 83 | 48 | 25 | 47 | 79 |
-| last60d | 2026-09-25 | 2 | 118 | 72 | 42 | 71 | 127 |
-| 90d | 2026-08-26 | 3 | 133 | 100 | 51 | 116 | 144 |
-| last180d | 2026-05-28 | 4 | 204 | 179 | 94 | 207 | 229 |
-| 360d | 2025-11-29 | 8 | 366 | 277 | 197 | 410 | 423 |
-| last720d | 2024-12-04 | 13 | 491 | 331 | 286 | 700 | 609 |
+| 30d | 2026-10-26 | 2 | 78 | 44 | 23 | 50 | 79 |
+| last60d | 2026-09-26 | 2 | 117 | 72 | 41 | 75 | 127 |
+| 90d | 2026-08-27 | 3 | 133 | 100 | 51 | 119 | 144 |
+| last180d | 2026-05-29 | 4 | 204 | 178 | 93 | 211 | 229 |
+| 360d | 2025-11-30 | 8 | 366 | 277 | 197 | 413 | 423 |
+| last720d | 2024-12-05 | 13 | 489 | 331 | 286 | 701 | 609 |
 
 ## Release 资产
 
@@ -104,19 +104,6 @@ x install zellij
 | [zellij-x86_64-unknown-linux-musl.sha256sum](https://github.com/zellij-org/zellij/releases/download/v0.46.1/zellij-x86_64-unknown-linux-musl.sha256sum) | 114 B | `native/linux/x64/musl` |
 | [zellij-x86_64-unknown-linux-musl.tar.gz](https://github.com/zellij-org/zellij/releases/download/v0.46.1/zellij-x86_64-unknown-linux-musl.tar.gz) | 35.1 MiB | `native/linux/x64/musl` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/zellij) 上共有 **131** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**96** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Arch | `0.46.0` | ⚠️ outdated |
-| Homebrew | `0.46.0` | ⚠️ outdated |
-| Nix unstable | `0.46.0` | ⚠️ outdated |
-| Void | `0.46.0` | ⚠️ outdated |
-| Alpine edge | `0.45.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.45.1` | ⚠️ outdated |
-
 ## 改进这些数据
 
 zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `zellij` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -126,4 +113,4 @@ zellij 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T10:09:25Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T08:42:33Z._
